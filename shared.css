@@ -7,13 +7,23 @@ body {
 	margin: 0;
 }
 
+.backdrop {
+	position: fixed;
+	display: none;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.5);
+}
+
 .main-header {
 	width: 100%;
 	position: fixed;
 	top: 0;
 	left: 0;
 	background: #2ddf5c;
-	padding: 8px 16px;
+	padding: 0.5rem 1rem;
 	z-index: 1;
 }
 
@@ -26,9 +36,9 @@ body {
 	color: #0e4f1f;
 	text-decoration: none;
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 1.25rem;
 	display: inline-block;
-	height: 22px;
+	height: 1.2rem;
 }
 
 .main-header__brand img {
@@ -50,14 +60,14 @@ body {
 
 .main-nav__item {
 	display: inline-block;
-	margin: 0 16px;
+	margin: 0 1rem;
 }
 
 .main-nav__item a {
 	text-decoration: none;
 	color: #0e4f1f;
 	font-weight: bold;
-	padding: 3px 0;
+	padding: 0.2rem 0;
 }
 
 .main-nav__item a:hover,
@@ -69,7 +79,7 @@ body {
 .main-nav__item--cta a {
 	color: white;
 	background: #ff1b68;
-	padding: 8px 16px;
+	padding: 0.5rem 1rem;
 	border-radius: 8px;
 }
 
@@ -82,8 +92,8 @@ body {
 
 .main-footer {
 	background: black;
-	padding: 32px;
-	margin-top: 48px;
+	padding: 2rem;
+	margin-top: 3rem;
 }
 
 .main-footer__links {
@@ -95,7 +105,7 @@ body {
 
 .main-footer__link {
 	display: inline-block;
-	margin: 0 16px;
+	margin: 0 1rem;
 }
 
 .main-footer__link a {
@@ -113,7 +123,7 @@ body {
 	color: white;
 	font: inherit;
 	border: 1.5px solid #0e4f1f;
-	padding: 8px;
+	padding: 0.5rem;
 	border-radius: 8px;
 	font-weight: bold;
 	cursor: pointer;
